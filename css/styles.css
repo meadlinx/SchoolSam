@@ -1,6 +1,6 @@
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 * {
 	margin: 0;
 	padding: 0;
@@ -1723,16 +1723,12 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-    background-color: #FFDF00; color: #333;
+    background-color: rgb(34, 34, 34);
 }
 
-@media screen and (max-width: 844px) { div.contentblock {width: 844px;}
-.nazvanie{
-    color: aliceblue;
-    font-size: 30px;
-    margin-left: 30px;
-    margin-top: 20px;
-        
-        
-}
- }
+
+
+
+
+
+
