@@ -1723,7 +1723,7 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-    background-color: rgb(34, 34, 34);
+    background-color: #FFDF00; color: #333;
 }
 
 
