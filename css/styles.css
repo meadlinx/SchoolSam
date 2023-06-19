@@ -240,7 +240,7 @@ color:#F89F9F;
 	background:transparent;
 	z-index: 50;
 	border-radius: 0;
-	top: 35px;  
+	top: 10px;  
 	
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
@@ -342,7 +342,7 @@ background: rgb(34, 34, 34);
 /*----Nav ----*/
 .header .navbar-brand {
 	float: left;
-	padding: 22px 15px;
+	padding: 25px 15px;
 	line-height: 18px;
 }
 .navbar-brand b {
