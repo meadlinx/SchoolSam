@@ -1603,6 +1603,18 @@ nav#filter li {
     margin: 0 0 0px 200px
 }
 
+.iframe {
+	width: 853px;
+	height: 480px;
+}
+
+.fotorama {
+padding-left: 260px;
+padding-right: 110px;
+data-width: 85%;
+     data-minheight: 500;
+}
+
 @media (max-width: 414px) {
 .nazvanie {
 color: aliceblue;
@@ -1662,6 +1674,14 @@ margin-top: 18px;
 }
 .a {
 	font-size: 18px;
+}
+.iframe-mobile {
+	width: 414px;
+	height: 224px;
+}
+.fotorama {
+padding-left: 10px;
+padding-right: 10px;
 }
 }
 
