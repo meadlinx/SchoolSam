@@ -1655,6 +1655,14 @@ margin-top: 18px;
 .img-news {
 	width: 90%;
 }
+.ul-news {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.a {
+	font-size: 18px;
+}
 }
 
 .col-md-9{
