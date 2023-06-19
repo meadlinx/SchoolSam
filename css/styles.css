@@ -30,11 +30,22 @@ body {
  background: #FFDF00;
 }
 p {
-	color: #6D6D6D;
 	margin: 0 0 1em !important;
+}
+.p-news {
+	color: black;
+	font-size: 18px;
+	padding-left: 200px;
+	padding-right: 170px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family:36px 'Open Sans', sans-serif;
+}
+.h1-news {
+	color: black;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 170px;
 }
 .fitImage {
 	max-width: 100%;
@@ -1631,6 +1642,18 @@ margin-top: 18px;
 }
 .h2-svyz {
 	text-align: center;
+}
+.h1-news {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.p-news {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.img-news {
+	width: 90%;
 }
 }
 
