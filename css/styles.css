@@ -617,7 +617,7 @@ img, video, iframe, embed, object {
 	float: right;
 }
 .row .area1 {
-	width: 100%;
+	width: 65%;
 }
 .row .area2 {
 	width: 35%;
@@ -1246,6 +1246,7 @@ width: 101%;
 margin-left: -15px;
 }	
 }
+
 @media (max-width: 768px) {
    
 .navbar-inverse .navbar-nav > li > a { 
@@ -1356,9 +1357,9 @@ margin: 3px 10px;
 }
 	.header .navbar-brand {
 float: left;
-padding: 22px 15px;
+padding: 1px 1px;
 line-height: 18px;
-width: 69%;
+width: 29%;
 margin-left: -25px;
 }
 .page-section { 
@@ -1569,12 +1570,70 @@ nav#filter li {
 }
 .nazvanie{
     color: aliceblue;
-    font-size: 30px;
+    font-size: 22px;
     margin-left: 100px;
     margin-top: 38px;
-        
-        
 }
+
+.Zapis_1klass {
+	width: 35%;
+	transition: 1s;
+}
+
+.Zapis_1klass:hover {
+	transform: scale(1.2);
+}
+
+.btn-news {
+	text-align: right;
+}
+
+.svyz{
+    margin: 0 0 0px 200px
+}
+
+@media (max-width: 414px) {
+.nazvanie {
+color: aliceblue;
+font-size: 22px;
+margin-left: 60px;
+margin-top: 18px;
+}
+.navbar-toggle{
+margin-top: 18px;
+}
+.row-svyz {
+	margin-left: 18%;
+}
+.row .area1 {
+	width: 100%;
+	margin-left: 10px;
+}
+.row .area2 {
+	display: none;
+}
+.btn-sved {
+	margin-left: 20%;
+}
+.Zapis_1klass {
+	width: 70%;
+}
+.btn-news {
+	text-align: center;
+	margin-left: 1%;
+}
+.btn-send {
+	text-align: center;
+	margin-left: 28%;
+}
+.svyz {
+	margin-left: 10px;
+}
+.h2-svyz {
+	text-align: center;
+}
+}
+
 .col-md-9{
     font-size: 100px;
     color: aqua;
@@ -1603,9 +1662,7 @@ nav#filter li {
     margin: 7px 0 7px 7px
   
 }
-.svyz{
-    margin: 0 0 0px 200px
-}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: rgb(34, 34, 34);

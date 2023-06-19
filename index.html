@@ -39,7 +39,7 @@
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <a href="index.html" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i><img src="images/logo2.png" width="75" height="75" style="padding-left: 25px" /></i></b></a>
-        <div class="nazvanie" style="font-size: 22px">МБОУ СОШ №1</div>
+        <div class="nazvanie">МБОУ СОШ №1</div>
         </div>
       <!--/.navbar-header-->
       <div id="main-nav" class="collapse navbar-collapse">
@@ -95,7 +95,7 @@
     <div class="dropdown">
   <button class="dropbtn">Государственная итоговая аттестация</button>
   <div class="dropdown-content">
-    <a href="gia.html">ОГЭ-9</a>
+    <a href="gia.html">ГИА-9</a>
     <a href="ege.html">ЕГЭ-11</a>
   </div>
     </div>
@@ -142,7 +142,7 @@
     </div>
       
     <div class="row feature design">
-      <div class="area1 columns left" style="width: 65%">
+      <div class="area1 columns left">
           <p style="font-size: 18px; color: black"><b>Полное наименование:</b> Муниципальное бюджетное общеобразовательное учреждение "Средняя общеобразовательная школа №1 р.п Самойловка Саратовской области"</p>
           
           <p style="font-size: 18px; color: black"><b>Краткое наименование:</b> МБОУ СОШ №1 р.п Самойловка Саратовской области.</p>
@@ -167,7 +167,7 @@
           
           <p style="font-size: 18px; color: black"><b>Продолжительность учебной недели:</b> 5 дней</p>
 
-          <a href="osn_sved.html" class="btn" title="Основные сведения организации">Узнать больше</a>
+          <a href="osn_sved.html" class="btn btn-sved" title="Основные сведения организации">Узнать больше</a>
       </div>
       <div class="area2 columns feature-media right"> <img src="images/Shkola.jpg" alt="" style="border-radius: 10px"> </div>
     </div>
@@ -176,7 +176,7 @@
       <p style="color: black; text-align: center; font-size: 18px"><b>2023 год <a href="https://docs.edu.gov.ru/document/26ba12611bfc19a49fd3afee9d45e0a0/" style="color: blue">Указом Президента России Владимира Путина</a> объявлен Годом педагога и наставника.</b></p>
       <p style="color: black; text-align: center; font-size: 18px"><b>Миссия Года – признание особого статуса педагогических работников, в том числе выполняющих наставническую деятельность.</b></p>
       <br>
-      <p style="text-align: center"><a href="https://www.gosuslugi.ru/600426/1/form"><img src="images/mainpage/Zapis_1klass.png" class="scale" alt="" width="35%"></a></p>
+      <p style="text-align: center"><a href="https://www.gosuslugi.ru/600426/1/form"><img src="images/mainpage/Zapis_1klass.png" class="Zapis_1klass" alt=""></a></p>
       
       <br>
       <br>
@@ -282,7 +282,7 @@
   </div>
     
     <br>
-    <p style="text-align: right"><a href="news/all_news.html" class="btn" style="font-size: 18px" title="Все новости">БОЛЬШЕ НОВОСТЕЙ</a></p>
+    <p class="btn-news"><a href="news/all_news.html" class="btn btn-news" style="font-size: 18px" title="Все новости">БОЛЬШЕ НОВОСТЕЙ</a></p>
     
     <br>
 </section>
@@ -380,24 +380,24 @@
 
           <!-- Heading -->
     <div id="svyz" class="svyz">
-          <h2 style="color: black">Связаться с нами</h2>
-          <p>Заполните все поля, чтобы школа смогла Вам ответить.</p>
+          <h2 class="h2-svyz" style="color: black">Связаться с нами</h2>
+          <p class="h2-svyz">Заполните все поля, чтобы школа смогла Вам ответить.</p>
     </div>
       <div class="row mrgn30">
         <form method="post" action="" id="contactfrm" role="form">
           <div class="col-sm-12">
             <div class="form-group">
-              <input type="name" class="form-control" name="name" id="name" placeholder="Ваше имя" title="Пожалуйста, введите ваше имя (минимум 2 символа)">
+              <label for="name">Имя</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Введите имя" title="Пожалуйста, введите свое имя (минимум 2 символа)">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Ваш e-mail" title="Пожалуйста, введите правильный e-mail адрес">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Введите Email" title="Пожалуйста, введите правильный Email адрес">
             </div>
             <div class="form-group">
-              <input type="phone" class="form-control" name="phone" id="phone" placeholder="Ваш номер телефона" title="Пожалуйста, введите правильный номер телефона">
-            </div>
-            <div class="form-group">
-              <textarea name="msg" class="form-control" id="msg" cols="3" rows="5" placeholder="Ваше сообщение:" title="Пожалуйста, введите свое сообщение (минимум 10 символов)"></textarea>
-              <button name="send" type="submit" class="btn btn-lg btn-primary" id="send" title="Отправить сообщение">Отправить</button>
+              <label for="comments">Сообщение</label>
+              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Введите своё сообщение..." title="Пожалуйста, введите свое сообщение (минимум 10 символов)"></textarea>
+              <button name="submit" type="submit" class="btn btn-lg btn-primary btn-send" id="submit" title="Отправить сообщение">Отправить</button>
             </div>
             <div class="result"></div>
           </div>
@@ -406,7 +406,7 @@
     <!--/.container--> 
 <footer>
 <div class="container">
-        <div class="row">
+        <div class="row row-svyz">
             <div class="col-md-3">
             	<div class="col">
                    <h4>Наши реквизиты</h4>
