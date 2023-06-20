@@ -1615,6 +1615,11 @@ data-width: 85%;
      data-minheight: 500;
 }
 
+label {
+	font-weight: bold;
+	color: black;
+}
+
 @media (max-width: 414px) {
 .nazvanie {
 color: aliceblue;
