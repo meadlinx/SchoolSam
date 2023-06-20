@@ -18,10 +18,14 @@ $msg .= "<p><strong>Номер телефона:</strong> ".$userphone."</p>\r\n
 $msg .= "<p><strong>Почта:</strong> ".$usermail."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$content."</p>\r\n";
 $msg .= "</body></html>";
-// отправка сообщения
-if(@mail($sendto, $subject, $msg, $headers)) {
-	echo "true";
-} else {
-	echo "false";
-}
-?>
+
+require_once "SendMailSmtpClass.php"; // подключаем класс
+
+//ДЛЯ MAIL.RU
+$mailSMTP = new SendMailSmtpClass('ytsuytsu61@mail.ru', '6ZcuWjPUwc1WPgz7Vujv', 'ssl://smtp.mail.ru', 465, "UTF-8");
+
+$from = array($username, // Имя отправителя
+"ytsuytsu61@mail.ru"// почта отправителя
+);
+
+$result =  $mailSMTP->send($sendto, $subject, $msg, $from);
